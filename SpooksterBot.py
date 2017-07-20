@@ -173,46 +173,46 @@ async def illya(ctx):
     print("/illya command was run")
     rnd = randint(1,14)
     if rnd is 1:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli1.jpg')
+        await client.send_file(channelid, r'\Discord Bot\loli1.jpg')
 
     elif rnd is 2:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli2.jpg')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli2.jpg')
         
     elif rnd is 3:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli3.jpg')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli3.jpg')
         
     elif rnd is 4:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli4.jpg')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli4.jpg')
            
     elif rnd is 5:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli5.png')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli5.png')
            
     elif rnd is 6:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli6.png')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli6.png')
 
     elif rnd is 7:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli7.png')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli7.png')
     
     elif rnd is 8:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli8.gif')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli8.gif')
     
     elif rnd is 9:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli9.jpg')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli9.jpg')
     
     elif rnd is 10:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli10.gif')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli10.gif')
     
     elif rnd is 11:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli11.jpg')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli11.jpg')
     
     elif rnd is 12:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli12.png')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli12.png')
     
     elif rnd is 13:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli13.jpg')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli13.jpg')
     
     elif rnd is 14:
-        await client.send_file(channelid, r'E:\Discord Bot\illya\loli14.jpg')
+        await client.send_file(channelid, r'\Discord Bot\illya\loli14.jpg')
     
 @client.command(pass_context=True) #allows you to warn people doesn't actually mean anything
 async def warning(ctx, args):
@@ -263,7 +263,7 @@ async def pubg(ctx):
     print("/pubg command was executed...")
     # Get an example image
     import matplotlib.cbook as cbook
-    image_file = cbook.get_sample_data(r'E:\Discord Bot\pubg\map.png')
+    image_file = cbook.get_sample_data(r'\Discord Bot\pubg\map.png')
     img = plt.imread(image_file)
 
     # Make some example data
@@ -283,8 +283,8 @@ async def pubg(ctx):
         ax.add_patch(circ)
 
 
-    plt.savefig(r'E:\Discord Bot\pubg\map2.png')
-    await client.send_file(channelid, r'E:\Discord Bot\pubg\map2.png')
+    plt.savefig(r'\Discord Bot\pubg\map2.png')
+    await client.send_file(channelid, r'\Discord Bot\pubg\map2.png')
     
 client.run("MzM2NDMxMjU3NTgxOTEyMDY0.DE82AA.PZeFLPjS1nhzZYvGjCCs9eidrGU") #This is the bot's token, tells the client what bot it is controlling
 
