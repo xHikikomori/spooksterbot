@@ -286,5 +286,5 @@ async def pubg(ctx):
     plt.savefig(r'\Discord Bot\pubg\map2.png')
     await client.send_file(channelid, r'\Discord Bot\pubg\map2.png')
     
-client.run("MzM2NDMxMjU3NTgxOTEyMDY0.DE82AA.PZeFLPjS1nhzZYvGjCCs9eidrGU") #This is the bot's token, tells the client what bot it is controlling
+
 
